@@ -3,10 +3,10 @@ import java.util.Scanner;
         public static void main(String[] args) {
             Scanner num = new Scanner(System.in);
             
-            System.out.print("Please enter a Width value = ");
+            System.out.print(" Width = ");
             Double wid = num.nextDouble();
 
-            System.out.print("Please enter a Height value = ");
+            System.out.print(" Height  = ");
             Double high = num.nextDouble();
 
             System.out.print(high*wid);
