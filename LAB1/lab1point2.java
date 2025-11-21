@@ -4,12 +4,12 @@ import java.util.Scanner;
             Scanner num = new Scanner(System.in);
             
             System.out.print("Please enter a Width value = ");
-            Double width = num.nextDouble();
+            Double wid = num.nextDouble();
 
             System.out.print("Please enter a Height value = ");
-            Double Height = num.nextDouble();
+            Double high = num.nextDouble();
 
-            System.out.print(Height*width);
+            System.out.print(high*wid);
 
             num.close();
             
