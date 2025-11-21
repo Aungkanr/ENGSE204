@@ -1,20 +1,21 @@
 import java.util.Scanner;
+
 class Lab1point1 {
- public static void main(String[]args){
-      Scanner put =new Scanner(System.in);
-      System.out.print(" Enter num1  = ");    
-      int x = put.nextInt();
+    public static void main(String[] args) {
 
-      System.out.print(" Enter num2  = ");
-      int j= put.nextInt();
+        Scanner ab = new Scanner(System.in);
+        
+        System.out.print("num1 = ");
+        int a = ab.nextInt();
 
-      System.out.println(x + j);
+        System.out.print("num2 = ");
+        int b = ab.nextInt();
 
-      put.close(); // ปิด Scanner 
+        int x = a+b;
 
-   } // end main
-    
-} // end class
+        // เอาผลลัพธ์มาบวกเฉยๆ นะ
+        System.out.println(x);
 
-
-    
+        ab.close();
+    }
+}
