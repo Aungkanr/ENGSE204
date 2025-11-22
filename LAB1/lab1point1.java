@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    public class Lab1point1 {
+    public class lab1point1{
     public static void main(String[] lek) {
 
         Scanner nw = new Scanner(System.in);
@@ -10,9 +10,8 @@ import java.util.Scanner;
         System.out.print("num2 = ");
         int b = nw.nextInt();
 
-        int x = a+b;
 
-        System.out.println(x);
+        System.out.println(a+b);
 
         nw.close();
     }
