@@ -1,18 +1,18 @@
 import java.util.Scanner;
     public class lab1point5 {
-        public static void main(String[] listnam) {
+        public static void main(String[] nam) {
             
             Scanner input=new Scanner(System.in);
             System.out.print(" number = ");
-            int menu = input.nextInt();
+            int menunum = input.nextInt();
 
-            if(menu == 1){
+            if(menunum == 1){
                 System.out.println("Americano");
-            } else if (menu == 2) {
+            } else if (menunum == 2) {
                 System.out.println("Latte");
-            } else if (menu == 3) {
+            } else if (menunum == 3) {
                 System.out.println("Espresso");        
-            } else if (menu == 4) {
+            } else if (menunum == 4) {
                 System.out.println("Mocha");
             } else {
                 System.out.println(" Invalid Menu");
