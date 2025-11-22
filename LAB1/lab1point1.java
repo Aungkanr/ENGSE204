@@ -10,7 +10,6 @@ import java.util.Scanner;
         System.out.print("num2 = ");
         int b = nw.nextInt();
 
-
         System.out.println(a+b);
 
         nw.close();
