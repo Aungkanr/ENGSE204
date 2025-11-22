@@ -1,16 +1,16 @@
 import java.util.Scanner ;
     public class lab1point3 {
-    public static void main(String[] args) {
+    public static void main(String[] exam) {
     
-        Scanner lo=new Scanner(System.in);
-            System.out.print(" Please enter number = ");
-            int number=lo.nextInt();
+        Scanner eo=new Scanner(System.in);
+            System.out.print(" enter number = ");
+            int number=eo.nextInt();
             if(number%2 == 0 ){
                 System.out.println(" Even ");
             }else{
                 System.out.println(" odd ");
                 
-                lo.close();
+                eo.close();
             
             } 
         }
