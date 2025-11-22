@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "lab1point7",
+      "request": "launch",
+      "mainClass": "lab1point7",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "lab1point8",
+      "request": "launch",
+      "mainClass": "lab1point8",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "lab1point5",
+      "request": "launch",
+      "mainClass": "lab1point5",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
