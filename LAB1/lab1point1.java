@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-class Lab1point1 {
+    public class Lab1point1 {
     public static void main(String[] lek) {
 
         Scanner nw = new Scanner(System.in);
