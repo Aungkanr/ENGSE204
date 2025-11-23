@@ -13,7 +13,7 @@ public class lab1point9 {
                 Average += sum [A];             
 
             }
-        
+            
         System.out.println(" Average result  = " + Average / value );
         input.close();
     }

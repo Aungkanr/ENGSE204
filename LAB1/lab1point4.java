@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class lab1point4 {
-    public static void main(String[] args) {
+    public static void main(String[] ged) {
 
         Scanner ga=new Scanner(System.in);
-            System.out.print("Please enter your score. = ");
+            System.out.print(" enter score = ");
             int score=ga.nextInt();
             if( score >= 80 ){
                 System.out.println(" Garde A ");

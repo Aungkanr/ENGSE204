@@ -9,7 +9,7 @@ public class lab1point13 {
         int[][] arr = new int[r][c];
 
         // อ่านข้อมูลแบบ 2 มิติ
-        for (int i = 0; i < r; i++) {
+        for (int i = 0; i < r; i++) { 
             for (int j = 0; j < c; j++) {
                 arr[i][j] = input.nextInt();
             }
