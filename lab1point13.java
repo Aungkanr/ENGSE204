@@ -8,7 +8,6 @@ public class lab1point13 {
 
         int[][] arr = new int[r][c];
 
-        // อ่านข้อมูลแบบ 2 มิติ
         for (int i = 0; i < r; i++) { 
             for (int j = 0; j < c; j++) {
                 arr[i][j] = input.nextInt();
@@ -17,7 +16,6 @@ public class lab1point13 {
 
         int count = 0;
 
-        // นับจำนวนเลข 1
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 if (arr[i][j] == 1) {
