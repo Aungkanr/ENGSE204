@@ -1,21 +1,39 @@
 import java.util.Scanner;
 public class lab1point12 {
-    public static void main(String[] args) {
+    public static void main(String[] mange) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print(" enter value = ");
-        int sum = input.nextInt();
+        System.out.print("How Many Type You Want To Input : "); // คุณต้องการใส่กี่ประเภท 
+        System.out.print(" What type of information do you want to enter "); // คุณต้องการป้อนข้อมูลประเภทใด
+        int magm = input.nextInt();
 
-        int[] num = new int[sum];   
-         for (int S = 0 ; S < sum ; S++) {
-            num [S] = input.nextInt();
+        int[] ProductId = new int[magm];
+        int[] Stock = new int[magm];
 
-        } // ทั้งหมดคือลูปเพื่อที่จะกรอกค่า        
-        int array = sumArray(num);
-        // นำเข้า num ต้องใส่ num
-        System.out.println(" ans = " +array);
+        for (int M = 0 ; M < magm ; M++){
+            System.out.println("Sai Ai Di : " +(M+1));
+            ProductId[M] = input.nextInt();
 
-        input.close();
+            System.out.println("Sai sa tok : " +(M+1));
+            Stock[M] = input.nextInt();
+        }
+        
+        System.out.println("Sai Id ti thong kan ha");
+        int lek = input.nextInt();
+
+        int M;
+        boolean  found = false;
+        for ( M = 0; M < magm; M++ )  {
+            if (lek == ProductId[M]){
+                System.out.printf(" mi khong nai Stock %d Piece : ",Stock[M]);
+                found = true;
+                break;
+            }
+        }
+
+            if ( !found ) {
+                System.out.printf("Product  not found", lek);
+            }
+                input.close();
     }
-    
 }

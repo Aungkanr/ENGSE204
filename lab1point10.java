@@ -23,5 +23,3 @@ public class lab1point10 {
             return area;
      }
 }
-
-

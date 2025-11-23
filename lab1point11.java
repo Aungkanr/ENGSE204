@@ -13,7 +13,7 @@ public class lab1point11 {
 
         } // ทั้งหมดคือลูปเพื่อที่จะกรอกค่า        
         int array = sumArray(num);
-        // นำเข้า num ต้องใส่ num
+        
         System.out.println(" ans = " +array);
 
         input.close();
