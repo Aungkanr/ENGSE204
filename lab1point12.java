@@ -3,8 +3,7 @@ public class lab1point12 {
     public static void main(String[] mange) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("How Many Type You Want To Input : "); // คุณต้องการใส่กี่ประเภท 
-        System.out.print(" What type of information do you want to enter "); // คุณต้องการป้อนข้อมูลประเภทใด
+        System.out.print(" tok kansai ki sanid  : ");
         int magm = input.nextInt();
 
         int[] ProductId = new int[magm];
