@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "lab1point14",
+      "request": "launch",
+      "mainClass": "lab1point14",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "Test",

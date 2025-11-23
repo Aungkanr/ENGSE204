@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class lab1point12 {
     public static void main(String[] mange) {
         Scanner input = new Scanner(System.in);
-
         System.out.print(" tok kansai ki sanid  : ");
         int magm = input.nextInt();
 
