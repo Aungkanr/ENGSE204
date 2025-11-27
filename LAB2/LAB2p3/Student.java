@@ -13,10 +13,4 @@ public class Student {
         count ++;
      
     }
-
-        public void displayIdata(){
-
-        System.out.println(" idnakren : " + this.iD );
-        System.out.println(" Namenakren : " + this.name );
-    }    
-}
+}    
