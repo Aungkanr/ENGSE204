@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "LAB2.LAB2p1.main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "LAB2.main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "lab2_1",
+      "request": "launch",
+      "mainClass": "LAB2.lab2_1",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "LAB2.Student",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
       "name": "lab1point13",
       "request": "launch",
       "mainClass": "lab1point13",
