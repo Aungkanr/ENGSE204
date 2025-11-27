@@ -18,12 +18,5 @@ public class Student {
 
         System.out.println(" idnakren : " + this.iD );
         System.out.println(" Namenakren : " + this.name );
-    }
-    
-
-
-
-
-
-    
+    }    
 }
