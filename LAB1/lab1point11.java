@@ -11,7 +11,7 @@ public class lab1point11 {
          for (int S = 0 ; S < sum ; S++) {
             num [S] = input.nextInt();
 
-        } // ทั้งหมดคือลูปเพื่อที่จะกรอกค่า        
+        }      
         int array = sumArray(num);
         
         System.out.println(" ans = " +array);
