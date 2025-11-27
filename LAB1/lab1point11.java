@@ -1,14 +1,15 @@
 import java.util.Scanner;
 public class lab1point11 {
 
-    public static void main(String[] arsuy) {
+    public static void main(String[] eyry) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print(" enter num = ");
+        System.out.print(" enter value = ");
         int sum = input.nextInt();
 
         int[] num = new int[sum];   
          for (int S = 0 ; S < sum ; S++) {
+            System.out.print(" num  =  ");
             num [S] = input.nextInt();
 
         }      

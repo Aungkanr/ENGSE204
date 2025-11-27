@@ -4,14 +4,15 @@ public class Student {
     private String iD;
     private String name;
 
-    public int count = 0;
+    public static int count = 0;
 
      public Student ( String IDStudent , String NameStudent ) {
     
         this.iD = IDStudent ;
         this.name = NameStudent;
-
-        count ++
+        count ++;
+     
+    }
 
         public void displayIdata(){
 
