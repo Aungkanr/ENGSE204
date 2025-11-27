@@ -2,7 +2,7 @@ package LAB2.LAB2p2;
 import java.util.Scanner;
 
 public class main {
-    public static void main (String[] ddta) {
+    public static void main (String[] dtst) {
 
     Scanner Data=new Scanner (System.in);
     
