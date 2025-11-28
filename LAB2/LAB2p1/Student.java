@@ -9,10 +9,7 @@ import java.util.Scanner;
     
         ID = idnakren ;
         Name = Namenakren;
-    }
-
-    public void displaydataStudent(){
-
+    
         System.out.println(" idnakren : " + ID );
         System.out.println(" Namenakren : " + Name );
         

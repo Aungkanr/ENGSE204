@@ -5,8 +5,6 @@ public class main {
     public static void main (String[] ddta) {
 
     Scanner Data=new Scanner (System.in);
-
-
     
     System.out.print(" Enter ID nakren : ");
         String ID = Data.nextLine();
@@ -15,8 +13,6 @@ public class main {
         String Name = Data.nextLine();
         
         Student nakren = new Student(ID , Name) ;
-        
-        nakren.displaydataStudent();
 
         Data.close();
     }
