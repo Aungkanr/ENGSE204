@@ -24,6 +24,5 @@ public class BankAccount {
         System.out.println("Owner : " + ownername);
         System.out.println("Balance " + balance);
      
-        }
-
     }
+}

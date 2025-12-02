@@ -1,7 +1,7 @@
 package LAB2.LAB2p6;
 
 import java.util.Scanner;
-public class main {
+public class Main {
 
     public static void main (String [] tanakan){
         
@@ -13,9 +13,10 @@ public class main {
 
         BankAccount call = new BankAccount( ownername , balance);
 
-        call.deposit(balance);
+        call.deposit(depositAmount);
         call.displaySum();
 
+        input.close();
     }
     
 }

@@ -2,7 +2,7 @@ package LAB2.LAB2p7;
 
 import java.util.Scanner;
 
-public class main {
+public class Main{
     
     public static void main (String [] atm){
 
@@ -21,6 +21,6 @@ public class main {
         call.withdraw(kang2);
         call.displaysomdun();
 
-
+        input.close();
     }
 }
