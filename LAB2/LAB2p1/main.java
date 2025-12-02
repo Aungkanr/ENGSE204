@@ -11,7 +11,7 @@ public class main {
 
         System.out.print("Enter Name nakren : ");
         String Name = Data.nextLine();
-        
+            
         Student nakren = new Student(ID , Name) ;
 
         Data.close();
