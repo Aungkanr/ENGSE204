@@ -18,8 +18,6 @@ public class Main {
         int newYear = input.nextInt(); 
         input.nextLine(); 
         
-       
-
         Car myCar = new Car(model, yearProduced);
 
         myCar.setYear(newYear);
@@ -27,7 +25,7 @@ public class Main {
         System.out.println("Model: " + myCar.getModel());
         System.out.println("Year: " + myCar.getYear());
      
-        input.close(); // ปิด Scanner
+        input.close();
     }
 }
 
