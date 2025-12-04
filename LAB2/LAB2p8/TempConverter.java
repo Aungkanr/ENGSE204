@@ -11,5 +11,4 @@ public class TempConverter {
         return ( fahrenheit - 32 ) * 5.0 / 9.0;
     }
 
-
 }

@@ -5,6 +5,27 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "LAB2.LAB2p10.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LAB2.LAB2p9.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LAB2.LAB2p7.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "LAB2.LAB2p8.Main",
       "projectName": "ENGSE204_f79c08ee"
     },
