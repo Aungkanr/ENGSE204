@@ -1,8 +1,6 @@
-package LAB3;
+package LAB3.lab3_5;
 
 import java.util.Scanner;
-
-import LAB3.lab3_5.DatabaseConnection;
 public class Main {
     
     public static void main(String[] dbct) {
@@ -17,6 +15,8 @@ public class Main {
     databaseConnection.disconnect();
 
     System.out.print(databaseConnection.isConnected());
+    
+    input.close();
     
     }
 }
