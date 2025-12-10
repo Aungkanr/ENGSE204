@@ -18,7 +18,7 @@ public class User {
             this.password = newPassword;
             System.out.println("Password updated ");
         } else {
-            System.out.println("Password iss too short");
+            System.out.println("Password is too short");
         }
     
 
