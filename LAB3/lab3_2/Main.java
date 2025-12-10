@@ -12,7 +12,7 @@ public class Main {
         Player player = new Player(initialScore);
         
         int Update = input.nextInt();
-        player.setScore(Update); 
+        player.setScore(Update);  
 
         System.out.print(player.getScore());
 

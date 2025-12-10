@@ -9,7 +9,7 @@ public class Main {
 
         String Username = input.nextLine();
 
-        User username = new User (Username);
+        User username = new User (Username);// การสร้าง ออบเจ๊กต์
 
         System.out.print(username.getUsername());
 

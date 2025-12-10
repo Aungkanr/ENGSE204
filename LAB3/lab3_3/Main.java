@@ -8,7 +8,8 @@ public class Main {
         Scanner input = new Scanner (System.in);
         String passold = input.nextLine();
         String passnew = input.nextLine();
-        User user = new User (passold);
+
+        User user = new User (passold); // การสร้าง ออบเจ๊กต์
         
         user.setPassword(passnew);
         System.out.println(user.getPassword());
