@@ -1,5 +1,4 @@
 package LAB3.lab3_4;
-
 import java.util.Scanner;
 
 public class Main {
