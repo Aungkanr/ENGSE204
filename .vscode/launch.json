@@ -5,6 +5,34 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "LAB4.lab4_11.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LAB4.lab4_10.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "lab409",
+      "request": "launch",
+      "mainClass": "Practice_skills.lab409",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LAB4.lab4_9.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "LAB4.lab4_8.Main",
       "projectName": "ENGSE204_f79c08ee"
     },

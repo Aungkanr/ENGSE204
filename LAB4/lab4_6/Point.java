@@ -33,7 +33,7 @@ public class Point {
     }
 
     public void dispalylnfo(){
-        System.out.println(x+ "," +y);
+        System.out.println("( " + x + "," + y +" )");
         
    }
 
