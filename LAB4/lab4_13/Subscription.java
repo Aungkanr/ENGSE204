@@ -59,7 +59,7 @@ public class Subscription {
             
         }
 
-        public void displaylnfo(){
+        public void displayScore(){
 
             System.out.println("Plan : " + planName + "Days : " + durationDays);
         }
