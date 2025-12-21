@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     
      public static void main(String[] scb) {
+        
         Scanner input = new Scanner(System.in);
         String gameName ;
         int score1 ,score2,score3,score4;

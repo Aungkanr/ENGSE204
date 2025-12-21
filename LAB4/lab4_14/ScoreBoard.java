@@ -24,11 +24,11 @@ public class ScoreBoard {
 
     public void displayScores() {
 
-        System.out.print(gameName);
+        System.out.print(gameName + " : ");
 
         for (int s : scores) 
 
-        System.out.print(s);
+        System.out.print(s + ",");
         
         System.out.println();
 
