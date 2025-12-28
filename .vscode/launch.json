@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "LAB5.lab5_13.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LAB5.lab5_12.Main",
+      "projectName": "ENGSE204_f79c08ee"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "LAB5.lab5_11.Main",
       "projectName": "ENGSE204_f79c08ee"
     },
